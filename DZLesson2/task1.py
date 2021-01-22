@@ -4,7 +4,7 @@
 # Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 
 data_list = [None, 77, 7.7, bin(77), complex(5, 7), 'bums', list('data'), tuple('1234567890'),
-             set('буквы'), dict(key_1='val_1', key_2='val_2'), bool(5)]
+             set('буквы!'), dict(key_1='val_1', key_2='val_2'), bool(5)]
 for i in data_list:
     if type(i) is type(None):
         print('Тип элемента: NoneType')
