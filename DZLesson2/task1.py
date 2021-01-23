@@ -28,4 +28,3 @@ for i in data_list:
         print('Тип элемента: словарь')
     elif type(i) == bool:
         print('Тип элемента: булево выражение')
-
