@@ -20,8 +20,10 @@ def iter_fun (x):
 
 def cycl_fun (st):
     с = 0
-    for el in cycle(st):
-        if с > 20:
+    for el in cycle('stdsfsdfsd'):
+        if с > st:
             break
         print(el)
         с += 1
+iter_fun(int(input('Введите начальное число ')))
+cycl_fun(int(input('Введите строку для повторений ')))

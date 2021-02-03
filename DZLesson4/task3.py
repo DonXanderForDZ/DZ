@@ -3,6 +3,6 @@
 Необходимо решить задание в одну строку.
 Подсказка: использовать функцию range() и генератор.
 """
-res_list = [i for i in range(20,240) if (i % 20 == 0) or (i % 21 == 0)]
+res_list = [i for i in range(20, 241) if (i % 20 == 0) or (i % 21 == 0)]
 print(res_list)
 
