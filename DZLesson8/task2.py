@@ -22,3 +22,4 @@ div = DivisionByNull()
 print(DivisionByNull.divide_by_null(50, 0))
 print(DivisionByNull.divide_by_null(50, 0.5))
 print(div.divide_by_null(100, 0))
+

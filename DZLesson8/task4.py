@@ -74,3 +74,4 @@ class Copier(OfficeMachines):
 
 a = OfficeMachines()
 print(a.reception())
+

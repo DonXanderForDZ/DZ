@@ -44,4 +44,3 @@ print(today.valid(11, 13, 2011))
 print(Data.extract('11 - 11 - 2031'))
 print(today.extract('11 - 11 - 2033'))
 print(Data.valid(1, 11, 2000))
-
